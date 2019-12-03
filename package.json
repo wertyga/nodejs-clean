@@ -1,0 +1,28 @@
+{
+  "name": "telegramBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run:dev": "cross-env NODE_ENV=development nodemon -w . --exec babel-node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cross-env": "^6.0.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.13",
+    "multiparty": "^4.2.1",
+    "short-id": "0.1.0-1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.4"
+  }
+}
